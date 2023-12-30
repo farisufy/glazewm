@@ -101,11 +101,6 @@
                 Padding="{Binding Padding}"
                 Background="{Binding Background}" />
             </DataTemplate>
-            <DataTemplate DataType="{x:Type components:FocusTimerViewModel}">
-              <components:FocusTimerComponent
-                Padding="{Binding Padding}"
-                Background="{Binding Background}" />
-            </DataTemplate>
           </ContentPresenter.Resources>
         </ContentPresenter>
       </Grid>

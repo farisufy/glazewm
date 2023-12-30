@@ -112,7 +112,6 @@ namespace GlazeWM.Bar
         MemoryComponentConfig rampc => new MemoryComponentViewModel(this, rampc),
         TextFileComponentConfig stc => new TextFileComponentViewModel(this, stc),
         MusicComponentConfig mcc => new MusicComponentViewModel(this, mcc),
-        FocusTimerComponentConfig ftc => new FocusTimerViewModel(this, ftc),
         _ => throw new ArgumentOutOfRangeException(nameof(config)),
       });
     }
