@@ -34,7 +34,6 @@ namespace GlazeWM.Bar.Components
           "focus_timer", () => ""
         },
       };
-
       return XamlHelper.ParseLabel(_config.LabelFocus, variableDictionary, this);
     }
   }
